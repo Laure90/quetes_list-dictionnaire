@@ -1,0 +1,20 @@
+using System;
+
+namespace quete_list
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            System.Collections.Generic.List<string> caracterList = new List <string>();
+            caracterList.Add("salut");
+            caracterList.Add("comment");
+            caracterList.Add("çaVa");
+            caracterList.RemoveAt(0);
+            caracterList.Remove("çaVa");
+            caracterList[1] = "ciao";
+
+
+        }
+    }
+}
