@@ -12,7 +12,7 @@ namespace quete_list
             caracterList.Add("çaVa");
             caracterList.RemoveAt(0);
             caracterList.Remove("çaVa");
-            caracterList[1] = "ciao";
+            caracterList[0] = "ciao";
 
 
         }
